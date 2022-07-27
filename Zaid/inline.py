@@ -16,8 +16,8 @@ from config import GROUP_SUPPORT, UPDATES_CHANNEL
 def stream_markup(user_id):
   buttons = [
     [
-      InlineKeyboardButton(text="• Mᴇɴᴜ", callback_data=f'cbmenu | {user_id}'),
-      InlineKeyboardButton(text="• Cʟᴏsᴇ", callback_data=f'cls'),
+      InlineKeyboardButton(text="•⚜️ Mᴇɴᴜ ⚜️", callback_data=f'cbmenu | {user_id}'),
+      InlineKeyboardButton(text="• Cʟᴏsᴇ ❌", callback_data=f'cls'),
     ],
     [
       InlineKeyboardButton(text="✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"),
