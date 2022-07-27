@@ -21,10 +21,10 @@ def info(_, message):
         user = k.id
 
     if user == OWNER:
-        status = "This Person is my Owner"
+        status = "This Person is my Owner(MALIK)"
 
     elif user in sudos:
-        status = "This person is one of my Sudo users !"
+        status = "This person is one of my Sudo users(MALIK FRIEND) !"
 
     else:
         status = "member"
