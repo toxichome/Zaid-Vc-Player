@@ -124,7 +124,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("🤝🏻 GROUP 🤝🏻 ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("🤝🏻 CHANNEL 🤝🏻", url=f"https://t.me/{UPDATES_CHANNEL}"),https://t.me/{}?startgroup=true
+                InlineKeyboardButton("🤝🏻 CHANNEL 🤝🏻", url=f"https://t.me/{UPDATES_CHANNEL}"),
             ],
             [
                 InlineKeyboardButton("  YM 💟 ", url="https://telegra.ph/file/c422fdf4bc9a1128b64b4.jpg"),
