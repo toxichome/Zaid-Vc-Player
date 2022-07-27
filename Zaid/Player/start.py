@@ -119,11 +119,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         USERNAME = get_me.username
         buttons = [
             [
-                InlineKeyboardButton("⚡️ ADD ME IN YOUR FAMILY ❤️", url='https://t.me/{USERNAME}?startgroup=true'),
+                InlineKeyboardButton("⚡️ ADD ME IN YOUR FAMILY ❤️", url=f"https://t.me/{USERNAME}?startgroup=true"),
             ],
             [
                 InlineKeyboardButton("🤝🏻 GROUP 🤝🏻 ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("🤝🏻 CHANNEL 🤝🏻", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("🤝🏻 CHANNEL 🤝🏻", url=f"https://t.me/{UPDATES_CHANNEL}"),https://t.me/{}?startgroup=true
             ],
             [
                 InlineKeyboardButton("  YM 💟 ", url="https://telegra.ph/file/c422fdf4bc9a1128b64b4.jpg"),
