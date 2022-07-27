@@ -246,11 +246,11 @@ async def stream_end_handler(_, u: Update):
         print(chat_id)
         op = await skip_current_song(chat_id)
         if op==1:
-           await bot.send_message(chat_id, "✅ **HOMIESbot has disconnected from video chat.**")
+           await bot.send_message(chat_id, "✅ **H.O.M.I.E.S  Music Bot has disconnected from video chat.**")
         elif op==2:
            await bot.send_message(chat_id, "❌ **an error occurred**\n\n» **Clearing** __Queues__ **and leaving video chat.**")
         else:
-         await bot.send_photo(chat_id, f"{NEXT_IMG}", caption=f"💡 **Streaming next track**\n\n🏷 **Name:** [{op[0]}]({op[1]}) | `{op[2]}`\n💭 **Chat:** `{chat_id}`", reply_markup=keyboard)
+         await bot.send_photo(chat_id, f"{NEXT_IMG}", caption=f"💡 ** Streaming next track**\n\n🏷 **Name:** [{op[0]}]({op[1]}) | `{op[2]}`\n💭 **Chat:** `{chat_id}`", reply_markup=keyboard)
     else:
        pass
 
@@ -262,11 +262,11 @@ async def stream_end_handler(_, u: Update):
         print(chat_id)
         op = await skip_current_song(chat_id)
         if op==1:
-           await bot.send_message(chat_id, "✅ **HOMIESbot has disconnected from video chat.**")
+           await bot.send_message(chat_id, "✅ **H.O.M.I.E.S  Music Bot has disconnected from video chat.**")
         elif op==2:
            await bot.send_message(chat_id, "❌ **an error occurred**\n\n» **Clearing** __Queues__ **and leaving video chat.**")
         else:
-         await bot.send_photo(chat_id, f"{NEXT_IMG}", caption=f"💡 **Streaming next track**\n\n🏷 **Name:** [{op[0]}]({op[1]}) | `{op[2]}`\n💭 **Chat:** `{chat_id}`", reply_markup=keyboard)
+         await bot.send_photo(chat_id, f"{NEXT_IMG}", caption=f"💡 ** Streaming next track**\n\n🏷 **Name:** [{op[0]}]({op[1]}) | `{op[2]}`\n💭 **Chat:** `{chat_id}`", reply_markup=keyboard)
     else:
        pass
 
@@ -278,11 +278,11 @@ async def stream_end_handler(_, u: Update):
         print(chat_id)
         op = await skip_current_song(chat_id)
         if op==1:
-           await bot.send_message(chat_id, "✅ **HOMIESbot has disconnected from video chat.**")
+           await bot.send_message(chat_id, "✅ **H.O.M.I.E.S  Music Bot has disconnected from video chat.**")
         elif op==2:
            await bot.send_message(chat_id, "❌ **an error occurred**\n\n» **Clearing** __Queues__ **and leaving video chat.**")
         else:
-         await bot.send_photo(chat_id, f"{NEXT_IMG}", caption=f"💡 **Streaming next track**\n\n🏷 **Name:** [{op[0]}]({op[1]}) | `{op[2]}`\n💭 **Chat:** `{chat_id}`", reply_markup=keyboard)
+         await bot.send_photo(chat_id, f"{NEXT_IMG}", caption=f"💡 ** Streaming next track**\n\n🏷 **Name:** [{op[0]}]({op[1]}) | `{op[2]}`\n💭 **Chat:** `{chat_id}`", reply_markup=keyboard)
     else:
        pass
 
@@ -293,11 +293,11 @@ async def stream_end_handler(_, u: Update):
         print(chat_id)
         op = await skip_current_song(chat_id)
         if op==1:
-           await bot.send_message(chat_id, "✅ **HOMIESbot has disconnected from video chat.**")
+           await bot.send_message(chat_id, "✅ **H.O.M.I.E.S  Music Bot has disconnected from video chat.**")
         elif op==2:
            await bot.send_message(chat_id, "❌ **an error occurred**\n\n» **Clearing** __Queues__ **and leaving video chat.**")
         else:
-         await bot.send_photo(chat_id, f"{NEXT_IMG}", caption=f"💡 **Streaming next track**\n\n🏷 **Name:** [{op[0]}]({op[1]}) | `{op[2]}`\n💭 **Chat:** `{chat_id}`", reply_markup=keyboard)
+         await bot.send_photo(chat_id, f"{NEXT_IMG}", caption=f"💡 ** Streaming next track**\n\n🏷 **Name:** [{op[0]}]({op[1]}) | `{op[2]}`\n💭 **Chat:** `{chat_id}`", reply_markup=keyboard)
     else:
        pass
 
@@ -308,11 +308,11 @@ async def stream_end_handler(_, u: Update):
         print(chat_id)
         op = await skip_current_song(chat_id)
         if op==1:
-           await bot.send_message(chat_id, "✅ **HOMIESbot has disconnected from video chat.**")
+           await bot.send_message(chat_id, "✅ **H.O.M.I.E.S  Music Bot has disconnected from video chat.**")
         elif op==2:
            await bot.send_message(chat_id, "❌ **an error occurred**\n\n» **Clearing** __Queues__ **and leaving video chat.**")
         else:
-         await bot.send_photo(chat_id, f"{NEXT_IMG}", caption=f"💡 **Streaming next track**\n\n🏷 **Name:** [{op[0]}]({op[1]}) | `{op[2]}`\n💭 **Chat:** `{chat_id}`", reply_markup=keyboard)
+         await bot.send_photo(chat_id, f"{NEXT_IMG}", caption=f"💡 ** Streaming next track**\n\n🏷 **Name:** [{op[0]}]({op[1]}) | `{op[2]}`\n💭 **Chat:** `{chat_id}`", reply_markup=keyboard)
     else:
        pass
 
