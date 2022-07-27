@@ -8,7 +8,7 @@ from Zaid.main import Test, bot as Client
 
 
 from Zaid.Database.dbusers import add_served_user
-from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT
+from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT, BOT_USERNAME
 
 
 ALIVE_PIC = START_PIC
@@ -117,10 +117,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data=="home":
         get_me = await client.get_me()
-        USERNAME = get_me.username
+        BOT_USERNAME = get_me.username
         buttons = [
             [
-                InlineKeyboardButton("⚡️ ADD ME IN YOUR FAMILY ❤️", url=f"https://t.me/{USERNAME}?startgroup=true"),
+                InlineKeyboardButton("⚡️ ADD ME IN YOUR FAMILY ❤️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
             ],
             [
                 InlineKeyboardButton("🤝🏻 GROUP 🤝🏻 ", url=f"https://t.me/{GROUP_SUPPORT}"),
